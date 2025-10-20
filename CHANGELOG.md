@@ -19,6 +19,7 @@
 ---
 ### Version 0.0.3 — 2025-10-20
 
+#### commit id - 32b1acf (32b1acf502a0cdbc4156f73ec3acf5592e9b3d29)
 **Changed:** The directory structure has been updated to improve organization.
 **Deleted:** Redundant levels in the site folder.
 **Added:** New directories `db` and `external_services` for better code separation.
