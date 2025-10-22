@@ -3,11 +3,11 @@
 
 ## Version 0.0.4 — 2025-10-22
 ---
-**Added:** CSS files to the `/public/styles/` directory. 
-**Added:** JS files to the `/public/scripts/` directory. 
-**Added:** Ajax scripts to the `/public/ajax/` directory. 
-**Updated:** Added an Ajax script for writing data to cookies. 
-**Added:** Pages for testing functionality.
+**Added:** CSS files to the `/public/styles/` directory.   
+**Added:** JS files to the `/public/scripts/` directory.   
+**Added:** Ajax scripts to the `/public/ajax/` directory.   
+**Updated:** Added an Ajax script for writing data to cookies.   
+**Added:** Pages for testing functionality.  
 
 ---
 ## Version 0.0.3 — 2025-10-20
