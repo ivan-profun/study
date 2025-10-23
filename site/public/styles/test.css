@@ -1,3 +1,30 @@
+.tests {
+
+}
+.tests .list {
+	padding: 20px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.tests .list .item {
+	padding: 20px;
+}
+.tests .list .item:hover {
+	background-color: #f0f0f0;
+}
+.tests .list .item-link {
+	
+}
+.tests .list .item .head {
+	
+}
+.tests .list .item .desc {
+	
+}
+
+
+
 .test-place {
 	margin: 50px;
 	padding: 50px;
