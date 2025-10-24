@@ -1,8 +1,16 @@
 # Change log: 
 
 
-## Version 0.0.4 — 2025-10-22
+## Version 0.0.4 — (2025-10-22 - 2025-10-24)
 ---
+### 2025-10-24
+**Updated:** The project structure has been rewritten. (Commit 4737b48)    
+
+### 2025-10-23
+**Added:** Manual determination of project languages. (Commit cb2ff1e)   
+**Added:** Page styling and structure.(Commit e8a06ae)  
+
+### 2025-10-22
 **Added:** CSS files to the `/public/styles/` directory.   
 **Added:** JS files to the `/public/scripts/` directory.   
 **Added:** Ajax scripts to the `/public/ajax/` directory.   
