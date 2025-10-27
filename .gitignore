@@ -1,2 +1,7 @@
+# folders
+mysql_data/
+logs/
+
+# files
 .env
 git_commands.txt
