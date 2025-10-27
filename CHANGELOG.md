@@ -3,6 +3,10 @@
 
 ## Version 0.0.4 — (2025-10-22 - 2025-10-24)
 ---
+### 2025-10-27
+**Updated:** Configuration db container has been changed. (Commit 5764d03)  
+**Added:** `DB` class and logging. (Commit a98141c)  
+
 ### 2025-10-24
 **Updated:** The project structure has been rewritten. (Commit 4737b48)    
 
