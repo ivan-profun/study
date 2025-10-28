@@ -1,7 +1,7 @@
 # Change log: 
 
 
-## Version 0.0.4 — (2025-10-22 - 2025-10-24)
+## Version 0.0.4 — 2025-10-22
 ---
 ### 2025-10-27
 **Updated:** Configuration db container has been changed. (Commit 5764d03)  
