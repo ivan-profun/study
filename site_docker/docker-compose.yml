@@ -40,6 +40,14 @@ services:
     networks:
       - site-net
 
+  adminer:
+    image: adminer
+    container_name: site_adminer
+    ports:
+      - "8081:8080"
+    networks:
+      - site-net
+
 networks:
   site-net:
     driver: bridge
