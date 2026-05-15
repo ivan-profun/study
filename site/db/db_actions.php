@@ -14,19 +14,45 @@ class DBActions {
     * Fields rules
     * $fields = [
     *     [
-    *         "name" => "",
-    *         "type" => "",
-    *         "lenght" => "",
-    *         "action" => "",
-    *         "isNull" => "",
-    *         "autoIncrement" => ""
+    *         "name" => "<field_name>",
+    *         "type" => "<value_type>",
+    *         "lenght" => "<value_lenght>",
+    *         "action" => "<field_action>", // int value mode { , unsigned, zerofill, unsigned zerofill}, date { , CURRENT_TIMESTAMP}, string {<matching_mode>}, foreign keys when erased { , RESTRICT, NO ACTION, CASCADE, SET NULL, SET DEFAULT}
+    *         "isNull" => "<isNullable>", // {true, false}
+    *         "isAutoIncrement" => "isAutoIncrement"
     *     ]
     * ]
     */
     public function createTable($table, $fields) {
-        if (isset($table) && $table != "") {
-            $sql = "CREATE TABLE IF NOT EXISTS " . $table;
-            $sql .= "id INT AUTO_INCREMENT PRIMARY KEY";
+        $message = "";
+        if (isset($table)) {
+            
+        }   
+        else {
+            $message .= "Ошибка. Не установлена переменная table.\n";
+        } 
+        
+        return $message;    
+        if (!is_array($table)) {
+            $message .= "Неверный формат переменной table.\n";
+        }
+
+
+
+        if () {
+            if (isset())
+            $sql = "CREATE TABLE IF NOT EXISTS `" . $table["name"] . "` ";
+            if (isset($fields)) {
+                if (is_array($fields)) {
+                    
+                }
+            }
+            if (!isset($fields[""])) {
+                
+            }
+
+
+            $sql .= "`id` INT AUTO_INCREMENT PRIMARY KEY";
             if ($fields) {
 
             }
@@ -36,11 +62,10 @@ class DBActions {
 
 
             $sql = "
-                CREATE TABLE IF NOT EXISTS users (
-                    id INT AUTO_INCREMENT PRIMARY KEY,
-                    name VARCHAR(100),
-                    email VARCHAR(100)
-                )
+                CREATE TABLE `test` (
+                    `id` int unsigned zerofill NOT NULL AUTO_INCREMENT PRIMARY KEY,
+                    `test` varchar(30) COLLATE 'utf8mb4_0900_ai_ci' NULL
+                ) ENGINE='InnoDB' COLLATE 'utf8mb4_0900_ai_ci';
             ";
             $this->db->exec($sql);
             $this->log("Создана таблица users");

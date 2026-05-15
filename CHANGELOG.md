@@ -1,8 +1,14 @@
 # Change log: 
 
-
-## Version 0.0.4 — 2025-10-22
 ---
+## Version 0.0.* — YYYY.MM.DD
+
+### 2026.05.08
+**Added:** Calculator. Working with js and inputs.
+
+---
+## Version 0.0.4 — 2025-10-22
+
 ### 2025-10-27
 **Updated:** Configuration db container has been changed. (Commit 5764d03)  
 **Added:** `DB` class and logging. (Commit a98141c)  
